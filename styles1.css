@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d15d5d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 21, 9);
+    margin: 0;
+    padding: 0;
+}
+.stopwatch {
+    text-align: center;
+    align-items: center;
+    box-shadow: black;
+    background-color: rgb(199, 228, 219);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:rgb(216, 109, 109);
+}
+#display{
+    border-radius: 20px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: rgb(194, 145, 111);
+    border: 20px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;    
+    border-radius: 10px;
+}
+
+#startStop{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(6, 176, 238);
+    border: blueviolet;
+    margin: 10px;
+    color: rgb(26, 25, 25);
+    font-size: 15px;
+}
+#reset{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(221, 118, 33);
+    border: blueviolet;
+    margin: 10px;
+    color: rgb(26, 25, 25);
+    font-size: 15px;
+}
+#lap{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(38, 193, 82);
+    border: blueviolet;
+    margin: 10px;
+    color: rgb(26, 25, 25);
+    font-size: 15px;
+}
+
+
+    
